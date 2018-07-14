@@ -9,28 +9,35 @@ use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
+/**
+ * Class Users
+ * @package AppBundle\DataFixtures\ORM
+ */
 class Users extends Fixture implements OrderedFixtureInterface, ContainerAwareInterface
 {
-	/**
-	 * @var ContainerInterface
-	 */
-	private $container;
-	
-	/**
-	 * {@inheritDoc}
-	 */
-	public function setContainer(ContainerInterface $container = null)
-	{
-		$this->container = $container;
-	}
-	
-	public function load(ObjectManager $manager)
-	{
+    /**
+     * @var ContainerInterface
+     */
+    private $container;
+    
+    /**
+     * {@inheritDoc}
+     */
+    public function setContainer(ContainerInterface $container = null)
+    {
+        $this->container = $container;
+    }
+
+    /**
+     * @param ObjectManager $manager
+     */
+    public function load(ObjectManager $manager)
+    {
         $userManager = $this->container->get('fos_user.user_manager');
 
         $phone = 666666666;
 
-        for ($i = 1; $i <= 50; $i ++){
+        for ($i = 1; $i <= 50; $i ++) {
 
             /** @var User $user */
             $user = $userManager->createUser();
@@ -44,13 +51,13 @@ class Users extends Fixture implements OrderedFixtureInterface, ContainerAwareIn
                 ->setPlainPassword('user' . $i);
             $userManager->updateUser($user);
         }
-	}
-	
-	/**
-	 * {@inheritDoc}
-	 */
-	public function getOrder()
-	{
-		return 1;
-	}
+    }
+    
+    /**
+     * {@inheritDoc}
+     */
+    public function getOrder()
+    {
+        return 1;
+    }
 }

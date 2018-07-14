@@ -1,0 +1,20 @@
+1: { name: 'Alavés', escudo: 'Alaves.png' }
+2: { name: 'Ath. Bilbao', escudo: 'Athletic Bilbao.gif' }
+3: { name: 'Atl. de Madrid', escudo: 'Atletico de Madrid.gif' }
+4: { name: 'F.C. Barcelona', escudo: 'Barcelona.gif' }
+5: { name: 'Real Betis', escudo: 'Betis.gif' }
+6: { name: 'Celta', escudo: 'Celta.gif' }
+7: { name: 'Deportivo', escudo: 'Deportivo de la Coruna.gif' }
+8: { name: 'Eibar', escudo: 'Eibar.gif' }
+9: { name: 'Espanyol', escudo: 'Espanol.gif' }
+10: { name: 'Granada', escudo: 'Granada.gif' }
+11: { name: 'Las Palmas', escudo: 'Las Palmas.gif' }
+12: { name: 'Leganés', escudo: 'Leganes.gif' }
+13: { name: 'Málaga', escudo: 'Malaga.gif' }
+14: { name: 'Osasuna', escudo: 'Osasuna.gif' }
+15: { name: 'Real Madrid', escudo: 'Real Madrid.gif' }
+16: { name: 'Real Sociedad', escudo: 'Real Sociedad.gif' }
+17: { name: 'Sevilla', escudo: 'Sevilla.gif' }
+18: { name: 'Sporting de Gijón', escudo: 'Sporting Gijon.gif' }
+19: { name: 'Valencia C.F.', escudo: 'Valencia.gif' }
+20: { name: 'Villarreal', escudo: 'Villarreal.gif' }

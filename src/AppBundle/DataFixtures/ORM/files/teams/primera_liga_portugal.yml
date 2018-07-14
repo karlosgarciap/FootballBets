@@ -1,0 +1,347 @@
+{
+    "count": 18,
+    "filters": {},
+    "competition": {
+        "id": 2017,
+        "area": {
+            "id": 2187,
+            "name": "Portugal"
+        },
+        "name": "Primeira Liga",
+        "code": null,
+        "plan": "TIER_ONE",
+        "lastUpdated": "2018-06-05T00:21:58Z"
+    },
+    "season": {
+        "id": 183,
+        "startDate": "2018-08-12",
+        "endDate": "2019-05-19",
+        "currentMatchday": null
+    },
+    "teams": [
+        {
+            "id": 496,
+            "area": {
+                "id": null,
+                "name": null
+            },
+            "name": "Rio Ave FC",
+            "shortName": "Rio Ave",
+            "tla": null,
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2018-07-04T19:47:24Z"
+        },
+        {
+            "id": 498,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Sporting Clube de Portugal",
+            "shortName": "Sporting CP",
+            "tla": "SCP",
+            "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+            "phone": "+351 (217) 516000",
+            "website": "http://www.sporting.pt",
+            "email": "sporting@sportmultimedia.pt",
+            "founded": 1906,
+            "clubColors": "Green / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T12:59:07Z"
+        },
+        {
+            "id": 503,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "FC Porto",
+            "shortName": "Porto",
+            "tla": "FCP",
+            "address": "Estádio do Dragão, Entrada Poente - Piso 3 Porto 4350-451",
+            "phone": "+351 (022) 5070500",
+            "website": "http://www.fcporto.pt",
+            "email": "geral@portosad.pt",
+            "founded": 1893,
+            "clubColors": "Blue / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T12:59:08Z"
+        },
+        {
+            "id": 583,
+            "area": {
+                "id": null,
+                "name": null
+            },
+            "name": "Moreirense FC",
+            "shortName": "Moreirense",
+            "tla": null,
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:34:38Z"
+        },
+        {
+            "id": 810,
+            "area": {
+                "id": null,
+                "name": null
+            },
+            "name": "Boavista FC",
+            "shortName": "Boavista",
+            "tla": null,
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2018-07-04T19:47:24Z"
+        },
+        {
+            "id": 1049,
+            "area": {
+                "id": null,
+                "name": null
+            },
+            "name": "CD Tondela",
+            "shortName": "Tondela",
+            "tla": null,
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:34:30Z"
+        },
+        {
+            "id": 1103,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "GD Chaves",
+            "shortName": "Chaves",
+            "tla": "CHA",
+            "address": "Av. do Estádio Municipal Apartado 225 Chaves 5400",
+            "phone": "+351 (276) 333149",
+            "website": "http://www.gdchaves.pt",
+            "email": "geral@gdchaves.pt",
+            "founded": 1949,
+            "clubColors": "Red / Blue",
+            "venue": "Estádio Municipal Eng. Manuel Branco Teixeira",
+            "lastUpdated": "2018-07-09T09:53:25Z"
+        },
+        {
+            "id": 1903,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Sport Lisboa e Benfica",
+            "shortName": "Benfica Lisboa",
+            "tla": null,
+            "address": "Av. General Norton de Matos 1500, Apartado Nº 4100 Lisboa 1501-805",
+            "phone": "+351 (021) 7219558",
+            "website": "http://www.slbenfica.pt",
+            "email": "sec.geral@slbenfica.pt",
+            "founded": 1904,
+            "clubColors": "Red / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:34:04Z"
+        },
+        {
+            "id": 5529,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CD Nacional",
+            "shortName": "CD Nacional",
+            "tla": null,
+            "address": "Rua do Esmeraldo, n.º 46 Funchal 9060",
+            "phone": "+351 (291) 227324",
+            "website": "http://www.cdnacional.pt",
+            "email": "geral@cdnacional.pt",
+            "founded": 1910,
+            "clubColors": "Black / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:32:00Z"
+        },
+        {
+            "id": 5530,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CD Santa Clara",
+            "shortName": "CD Santa Clara",
+            "tla": null,
+            "address": "Rua Comandante Jaime de Sousa, 21 Ponta Delgada 9500",
+            "phone": "+351 (296) 306400",
+            "website": "http://www.cdsantaclara.pt",
+            "email": "cdsantaclara@mail.telepac.pt",
+            "founded": 1921,
+            "clubColors": "Red / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:32:02Z"
+        },
+        {
+            "id": 5543,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Vitória SC",
+            "shortName": "Vitória SC",
+            "tla": null,
+            "address": "Dr. António Pimenta Machado, Apartado 505 Guimarães 4802-914",
+            "phone": "+351 (253) 432570",
+            "website": "http://www.vitoriasc.pt",
+            "email": "vitoria@vitoriasc.pt",
+            "founded": 1922,
+            "clubColors": "White / Black",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:34:09Z"
+        },
+        {
+            "id": 5544,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CD Aves",
+            "shortName": "Aves",
+            "tla": null,
+            "address": "R. Luís Gonzaga Mendes de Carvalho, 265 Vila das Aves 4795-080",
+            "phone": "+351 (252) 941816",
+            "website": "http://www.cdaves.pt",
+            "email": "cdaves@mail.pt",
+            "founded": 1930,
+            "clubColors": "Red / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:33:56Z"
+        },
+        {
+            "id": 5565,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CD Feirense",
+            "shortName": "CD Feirense",
+            "tla": null,
+            "address": "Av.ª 25 de Abril n.º 14, Apartado 27 Santa Maria da Feira 4524-909",
+            "phone": "+351 (256) 362472",
+            "website": "http://www.cdfeirense.pt",
+            "email": "secretaria@cdfeirense.pt",
+            "founded": 1918,
+            "clubColors": "Blue / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:35:47Z"
+        },
+        {
+            "id": 5568,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CF Os Belenenses",
+            "shortName": "Belenenses",
+            "tla": null,
+            "address": "Estádio do Restelo Lisboa 1449-015",
+            "phone": "+351 (021) 3010461",
+            "website": "http://www.osbelenenses.com",
+            "email": "cfbelenenses@clix.pt",
+            "founded": 1919,
+            "clubColors": "Blue / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:35:50Z"
+        },
+        {
+            "id": 5575,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "CS Marítimo",
+            "shortName": "CS Marítimo",
+            "tla": null,
+            "address": "Rua Campo do Marítimo, Santo António Funchal 9020-073",
+            "phone": "+351 (291) 708300",
+            "website": "http://www.csmaritimo.org.pt",
+            "email": "csmaritimo@netmadeira.com",
+            "founded": 1910,
+            "clubColors": "Green / Red",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:35:55Z"
+        },
+        {
+            "id": 5601,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Portimonense SC",
+            "shortName": "Portimonense",
+            "tla": null,
+            "address": "Praça Manuel Teixeira Gomes n.º 4 -1º Portimão 8500-542",
+            "phone": "+351 (282) 422427",
+            "website": "http://www.portimonense.pt",
+            "email": "geral@portimonensesc.pt",
+            "founded": 1914,
+            "clubColors": "Black / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:36:15Z"
+        },
+        {
+            "id": 5613,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Sporting Clube de Braga",
+            "shortName": "SC Braga",
+            "tla": null,
+            "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+            "phone": "+351 (253) 206860",
+            "website": "http://www.scbraga.pt",
+            "email": "mail@scbraga.pt",
+            "founded": 1921,
+            "clubColors": "Red / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:36:26Z"
+        },
+        {
+            "id": 5620,
+            "area": {
+                "id": 2187,
+                "name": "Portugal"
+            },
+            "name": "Vitória FC",
+            "shortName": "Vitória FC",
+            "tla": null,
+            "address": "Estádio do Bonfim, Apartado 132 Setúbal 2902-882",
+            "phone": "+351 (265) 544270",
+            "website": "http://www.vfc.pt",
+            "email": "sad@vfc.pt",
+            "founded": 1910,
+            "clubColors": "Green / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:36:33Z"
+        }
+    ]
+}
