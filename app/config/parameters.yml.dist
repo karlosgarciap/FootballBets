@@ -17,3 +17,6 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+
+    fos_user_from_email_address: addres@fosuserbundle.com
+    fos_user_from_email_sender_name: sender.name@fosuserbundle.com
