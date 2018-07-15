@@ -22,8 +22,8 @@
         {
             "id": 496,
             "area": {
-                "id": null,
-                "name": null
+                "id": 2187,
+                "name": "Portugal"
             },
             "name": "Rio Ave FC",
             "shortName": "Rio Ave",
@@ -76,8 +76,8 @@
         {
             "id": 583,
             "area": {
-                "id": null,
-                "name": null
+                "id": 2187,
+                "name": "Portugal"
             },
             "name": "Moreirense FC",
             "shortName": "Moreirense",
@@ -94,8 +94,8 @@
         {
             "id": 810,
             "area": {
-                "id": null,
-                "name": null
+                "id": 2187,
+                "name": "Portugal"
             },
             "name": "Boavista FC",
             "shortName": "Boavista",
@@ -112,8 +112,8 @@
         {
             "id": 1049,
             "area": {
-                "id": null,
-                "name": null
+                "id": 2187,
+                "name": "Portugal"
             },
             "name": "CD Tondela",
             "shortName": "Tondela",

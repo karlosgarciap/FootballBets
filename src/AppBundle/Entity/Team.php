@@ -38,6 +38,11 @@ class Team
     private $shield;
 
     /**
+     * @ORM\ManyToOne(targetEntity="Country")
+     */
+    private $country;
+
+    /**
      * Get id
      *
      * @return integer
@@ -93,5 +98,29 @@ class Team
     public function getShield()
     {
         return $this->shield;
+    }
+
+    /**
+     * Set country
+     *
+     * @param Country $country
+     *
+     * @return Team
+     */
+    public function setCountry(Country $country = null)
+    {
+        $this->country = $country;
+
+        return $this;
+    }
+
+    /**
+     * Get country
+     *
+     * @return Country
+     */
+    public function getCountry()
+    {
+        return $this->country;
     }
 }

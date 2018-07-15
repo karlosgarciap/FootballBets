@@ -2,6 +2,7 @@
 
 namespace AppBundle\DataFixtures\ORM;
 
+use AppBundle\Entity\Country;
 use AppBundle\Entity\Team;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
@@ -9,11 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 
-/**
- * Class Teams
- * @package AppBundle\DataFixtures\ORM
- */
-class Teams extends Fixture implements ContainerAwareInterface, OrderedFixtureInterface
+class Countries extends Fixture implements ContainerAwareInterface, OrderedFixtureInterface
 {
     /**
     * @var ContainerInterface
@@ -34,23 +31,21 @@ class Teams extends Fixture implements ContainerAwareInterface, OrderedFixtureIn
     public function load(ObjectManager $manager)
     {
         $pathToFixturesFiles =  $this->container->get('kernel')->getRootDir() .
-                            '/../src/AppBundle/DataFixtures/ORM/files/teams';
+                            '/../src/AppBundle/DataFixtures/ORM/files';
 
-        $resource = opendir($pathToFixturesFiles);
-
-        while (false !== ($file = readdir($resource))) {
-            if (!in_array($file, ['.', '..'])) {
-                $json = json_decode(file_get_contents($pathToFixturesFiles . '/' . $file));
-                foreach ($json->teams as $teamData) {
-                    $country = $manager->getRepository('AppBundle:Country')->findOneBy(['name' => $teamData->area->name]);
-                    $team = new Team();
-                    $team->setName($teamData->name)->setCountry($country);
-                    $manager->persist($team);
-                }
-            }
+        $json = json_decode(file_get_contents($pathToFixturesFiles . '/competitions.yml'));
+        $array = [];
+        foreach ($json->competitions as $competition) {
+            $array[$competition->area->name] = null;
         }
 
-        closedir($resource);
+        unset($array['Europe'], $array['Oceania'], $array['World']);
+
+        foreach (array_keys($array) as $contryName) {
+            $country = new Country();
+            $country->setName($contryName);
+            $manager->persist($country);
+        }
         $manager->flush();
     }
 
@@ -59,6 +54,6 @@ class Teams extends Fixture implements ContainerAwareInterface, OrderedFixtureIn
      */
     public function getOrder()
     {
-        return 3;
+        return 2;
     }
 }
