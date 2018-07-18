@@ -60,6 +60,19 @@ class Match
     private $goals2 = 0;
 
     /**
+     * @ORM\OneToMany(targetEntity="RoundMatchType", mappedBy="match")
+     */
+    private $roundMatchTypes;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->roundMatchTypes = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
      * Get id
      *
      * @return integer
@@ -144,11 +157,11 @@ class Match
     /**
      * Set team1
      *
-     * @param Team $team1
+     * @param \AppBundle\Entity\Team $team1
      *
      * @return Match
      */
-    public function setTeam1(Team $team1 = null)
+    public function setTeam1(\AppBundle\Entity\Team $team1 = null)
     {
         $this->team1 = $team1;
 
@@ -158,7 +171,7 @@ class Match
     /**
      * Get team1
      *
-     * @return Team
+     * @return \AppBundle\Entity\Team
      */
     public function getTeam1()
     {
@@ -168,11 +181,11 @@ class Match
     /**
      * Set team2
      *
-     * @param Team $team2
+     * @param \AppBundle\Entity\Team $team2
      *
      * @return Match
      */
-    public function setTeam2(Team $team2 = null)
+    public function setTeam2(\AppBundle\Entity\Team $team2 = null)
     {
         $this->team2 = $team2;
 
@@ -182,10 +195,44 @@ class Match
     /**
      * Get team2
      *
-     * @return Team
+     * @return \AppBundle\Entity\Team
      */
     public function getTeam2()
     {
         return $this->team2;
+    }
+
+    /**
+     * Add roundMatchType
+     *
+     * @param \AppBundle\Entity\RoundMatchType $roundMatchType
+     *
+     * @return Match
+     */
+    public function addRoundMatchType(\AppBundle\Entity\RoundMatchType $roundMatchType)
+    {
+        $this->roundMatchTypes[] = $roundMatchType;
+
+        return $this;
+    }
+
+    /**
+     * Remove roundMatchType
+     *
+     * @param \AppBundle\Entity\RoundMatchType $roundMatchType
+     */
+    public function removeRoundMatchType(\AppBundle\Entity\RoundMatchType $roundMatchType)
+    {
+        $this->roundMatchTypes->removeElement($roundMatchType);
+    }
+
+    /**
+     * Get roundMatchTypes
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getRoundMatchTypes()
+    {
+        return $this->roundMatchTypes;
     }
 }

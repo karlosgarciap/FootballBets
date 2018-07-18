@@ -9,7 +9,6 @@ use Symfony\Component\Validator\Constraints as Assert;
  * Team
  *
  * @ORM\Table(name="teams")
- * @ORM\Entity
  * @ORM\Entity()
  */
 class Team
@@ -24,7 +23,7 @@ class Team
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(name="name", type="string", length=255)
      * @Assert\NotBlank()
      * @Assert\Length(min = 4, max=255)
      */
@@ -33,7 +32,7 @@ class Team
     /**
      * @var string
      *
-     * @ORM\Column(name="escudo", type="string", length=255, nullable=true)
+     * @ORM\Column(name="shield", type="string", length=255, nullable=true)
      */
     private $shield;
 
@@ -103,11 +102,11 @@ class Team
     /**
      * Set country
      *
-     * @param Country $country
+     * @param \AppBundle\Entity\Country $country
      *
      * @return Team
      */
-    public function setCountry(Country $country = null)
+    public function setCountry(\AppBundle\Entity\Country $country = null)
     {
         $this->country = $country;
 
@@ -117,7 +116,7 @@ class Team
     /**
      * Get country
      *
-     * @return Country
+     * @return \AppBundle\Entity\Country
      */
     public function getCountry()
     {
