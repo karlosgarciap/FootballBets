@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Gedmo\Mapping\Annotation as Gedmo;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -53,6 +54,35 @@ class MatchResult
      * @ORM\JoinColumn(name="bet_id", referencedColumnName="id")
      */
     private $bet;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Round", mappedBy="pot")
+     */
+    private $rounds;
+
+    /**
+     * @var \DateTime $created
+     *
+     * @Gedmo\Timestampable(on="create")
+     * @ORM\Column(type="datetime")
+     */
+    private $created;
+
+    /**
+     * @var \DateTime $updated
+     *
+     * @Gedmo\Timestampable(on="update")
+     * @ORM\Column(type="datetime")
+     */
+    private $updated;
+
+    /**
+     * @var \DateTime $contentChanged
+     *
+     * @ORM\Column(name="content_changed", type="datetime", nullable=true)
+     * @Gedmo\Timestampable(on="change", field={"roundMatchType", "goals1", "goals2", "sign", "bet"})
+     */
+    private $contentChanged;
 
     /**
      * Get id

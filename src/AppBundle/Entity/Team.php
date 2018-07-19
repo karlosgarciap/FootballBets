@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Gedmo\Mapping\Annotation as Gedmo;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -40,6 +41,19 @@ class Team
      * @ORM\ManyToOne(targetEntity="Country")
      */
     private $country;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Round", mappedBy="pot")
+     */
+    private $rounds;
+
+    /**
+     * @var \DateTime $created
+     *
+     * @Gedmo\Timestampable(on="create")
+     * @ORM\Column(type="datetime")
+     */
+    private $created;
 
     /**
      * Get id

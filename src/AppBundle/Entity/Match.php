@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Gedmo\Mapping\Annotation as Gedmo;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -45,24 +46,53 @@ class Match
     
     /**
      * @var integer
-     * @Assert\NotBlank()
+     *
      * @Assert\Type(type="integer")
-     * @ORM\Column(name="goals1", type="integer")
+     * @ORM\Column(name="goals1", type="integer", nullable=true)
      */
-    private $goals1 = 0;
+    private $goals1;
 
     /**
      * @var integer
-     * @Assert\NotBlank()
+     *
      * @Assert\Type(type="integer")
-     * @ORM\Column(name="goals2", type="integer")
+     * @ORM\Column(name="goals2", type="integer", nullable=true)
      */
-    private $goals2 = 0;
+    private $goals2;
 
     /**
      * @ORM\OneToMany(targetEntity="RoundMatchType", mappedBy="match")
      */
     private $roundMatchTypes;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Round", mappedBy="pot")
+     */
+    private $rounds;
+
+    /**
+     * @var \DateTime $created
+     *
+     * @Gedmo\Timestampable(on="create")
+     * @ORM\Column(type="datetime")
+     */
+    private $created;
+
+    /**
+     * @var \DateTime $updated
+     *
+     * @Gedmo\Timestampable(on="update")
+     * @ORM\Column(type="datetime")
+     */
+    private $updated;
+
+    /**
+     * @var \DateTime $contentChanged
+     *
+     * @ORM\Column(name="content_changed", type="datetime", nullable=true)
+     * @Gedmo\Timestampable(on="change", field={"team1", "team2", "date", "goals1", "goals2"})
+     */
+    private $contentChanged;
 
     /**
      * Constructor

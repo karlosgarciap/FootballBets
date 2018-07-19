@@ -1,5 +1,6 @@
 imports:
     - { resource: config_third_party_bundles/fos_user.yml }
+    - { resource: config_third_party_bundles/stof_doctrine_extensions.yml }
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
