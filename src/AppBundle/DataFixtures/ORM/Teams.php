@@ -2,30 +2,37 @@
 
 namespace AppBundle\DataFixtures\ORM;
 
-use AppBundle\Entity\Team;
+use AppBundle\Providers\FootballDataOrg\Importer;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
-use Symfony\Component\DependencyInjection\ContainerAwareInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use Doctrine\Common\Persistence\ObjectManager;
+use Symfony\Component\HttpKernel\KernelInterface;
 
 /**
  * Class Teams
  * @package AppBundle\DataFixtures\ORM
  */
-class Teams extends Fixture implements ContainerAwareInterface, OrderedFixtureInterface
+class Teams extends Fixture implements OrderedFixtureInterface
 {
     /**
-    * @var ContainerInterface
-    */
-    private $container;
+     * @var KernelInterface
+     */
+    private $kernel;
 
     /**
-    * {@inheritDoc}
-    */
-    public function setContainer(ContainerInterface $container = null)
+     * @var Importer
+     */
+    private $footballDataOrgImporter;
+
+    /**
+     * Teams constructor.
+     * @param KernelInterface $kernel
+     * @param Importer $footballDataOrgImporter
+     */
+    public function __construct(KernelInterface $kernel, Importer $footballDataOrgImporter)
     {
-        $this->container = $container;
+        $this->kernel = $kernel;
+        $this->footballDataOrgImporter = $footballDataOrgImporter;
     }
 
     /**
@@ -33,25 +40,18 @@ class Teams extends Fixture implements ContainerAwareInterface, OrderedFixtureIn
      */
     public function load(ObjectManager $manager)
     {
-        $pathToFixturesFiles =  $this->container->get('kernel')->getRootDir() .
-                            '/../src/AppBundle/DataFixtures/ORM/files/teams';
+        $pathToFixturesFiles =  $this->kernel->getRootDir() . '/../src/AppBundle/DataFixtures/ORM/files/teams';
 
         $resource = opendir($pathToFixturesFiles);
 
         while (false !== ($file = readdir($resource))) {
             if (!in_array($file, ['.', '..'])) {
                 $json = json_decode(file_get_contents($pathToFixturesFiles . '/' . $file));
-                foreach ($json->teams as $teamData) {
-                    $country = $manager->getRepository('AppBundle:Country')->findOneBy(['name' => $teamData->area->name]);
-                    $team = new Team();
-                    $team->setName($teamData->name)->setCountry($country);
-                    $manager->persist($team);
-                }
+                $this->footballDataOrgImporter->importTeams($json);
             }
         }
 
         closedir($resource);
-        $manager->flush();
     }
 
     /**

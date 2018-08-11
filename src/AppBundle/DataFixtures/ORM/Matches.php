@@ -9,6 +9,10 @@ use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
+/**
+ * Class Matches
+ * @package AppBundle\DataFixtures\ORM
+ */
 class Matches extends Fixture implements OrderedFixtureInterface, ContainerAwareInterface
 {
     /**
@@ -24,6 +28,9 @@ class Matches extends Fixture implements OrderedFixtureInterface, ContainerAware
         $this->container = $container;
     }
 
+    /**
+     * @param ObjectManager $manager
+     */
     public function load(ObjectManager $manager)
     {
         $pathToFixturesFiles =  $this->container->get('kernel')->getRootDir() .
@@ -37,14 +44,13 @@ class Matches extends Fixture implements OrderedFixtureInterface, ContainerAware
             if (!in_array($file, ['.', '..'])) {
                 $json = json_decode(file_get_contents($pathToFixturesFiles . '/' . $file));
                 foreach ($json->matches as $matchData) {
-
-                    if(!isset($teams[$matchData->homeTeam->id])){
+                    if (!isset($teams[$matchData->homeTeam->id])) {
                         $teams[$matchData->homeTeam->id] =
                             $manager->getRepository('AppBundle:Team')
                                 ->findOneBy(['name' => $matchData->homeTeam->name]);
                     }
 
-                    if(!isset($teams[$matchData->awayTeam->id])){
+                    if (!isset($teams[$matchData->awayTeam->id])) {
                         $teams[$matchData->awayTeam->id] =
                             $manager->getRepository('AppBundle:Team')
                                 ->findOneBy(['name' => $matchData->awayTeam->name]);
