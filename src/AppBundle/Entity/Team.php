@@ -43,9 +43,11 @@ class Team
     private $country;
 
     /**
-     * @ORM\OneToMany(targetEntity="Round", mappedBy="pot")
+     * @var integer
+     *
+     * @ORM\Column(name="football_data_org_id", type="integer", unique=true)
      */
-    private $rounds;
+    private $footballDataOrgId;
 
     /**
      * @var \DateTime $created
@@ -116,11 +118,11 @@ class Team
     /**
      * Set country
      *
-     * @param \AppBundle\Entity\Country $country
+     * @param Country $country
      *
      * @return Team
      */
-    public function setCountry(\AppBundle\Entity\Country $country = null)
+    public function setCountry(Country $country = null)
     {
         $this->country = $country;
 
@@ -130,10 +132,58 @@ class Team
     /**
      * Get country
      *
-     * @return \AppBundle\Entity\Country
+     * @return Country
      */
     public function getCountry()
     {
         return $this->country;
+    }
+
+    /**
+     * Set footballDataOrgId.
+     *
+     * @param int $footballDataOrgId
+     *
+     * @return Team
+     */
+    public function setFootballDataOrgId($footballDataOrgId)
+    {
+        $this->footballDataOrgId = $footballDataOrgId;
+
+        return $this;
+    }
+
+    /**
+     * Get footballDataOrgId.
+     *
+     * @return int
+     */
+    public function getFootballDataOrgId()
+    {
+        return $this->footballDataOrgId;
+    }
+
+    /**
+     * Set created.
+     *
+     * @param \DateTime $created
+     *
+     * @return Team
+     */
+    public function setCreated($created)
+    {
+        $this->created = $created;
+
+        return $this;
+    }
+
+    /**
+     * Get created.
+     *
+     * @return \DateTime
+     */
+    public function getCreated()
+    {
+        return $this->created;
     }
 }

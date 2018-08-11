@@ -29,6 +29,13 @@ class Country
     private $name;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="football_data_org_id", type="integer", unique=true)
+     */
+    private $footballDataOrgId;
+
+    /**
      * Get id
      *
      * @return int
@@ -60,5 +67,29 @@ class Country
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * Set footballDataOrgId.
+     *
+     * @param int $footballDataOrgId
+     *
+     * @return Country
+     */
+    public function setFootballDataOrgId($footballDataOrgId)
+    {
+        $this->footballDataOrgId = $footballDataOrgId;
+
+        return $this;
+    }
+
+    /**
+     * Get footballDataOrgId.
+     *
+     * @return int
+     */
+    public function getFootballDataOrgId()
+    {
+        return $this->footballDataOrgId;
     }
 }
