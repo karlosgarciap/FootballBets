@@ -14,16 +14,16 @@
     },
     "season": {
         "id": 177,
-        "startDate": "2018-08-11",
+        "startDate": "2018-08-10",
         "endDate": "2019-05-25",
-        "currentMatchday": null
+        "currentMatchday": 1
     },
     "teams": [
         {
             "id": 511,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Toulouse FC",
             "shortName": "Toulouse FC",
@@ -40,8 +40,8 @@
         {
             "id": 514,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "SM Caen",
             "shortName": "SM Caen",
@@ -58,8 +58,8 @@
         {
             "id": 516,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Olympique de Marseille",
             "shortName": "Marseille",
@@ -76,8 +76,8 @@
         {
             "id": 518,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Montpellier HSC",
             "shortName": "Montpellier",
@@ -94,8 +94,8 @@
         {
             "id": 521,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Lille OSC",
             "shortName": "Lille OSC",
@@ -130,8 +130,8 @@
         {
             "id": 523,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Olympique Lyonnais",
             "shortName": "Olympique Lyon",
@@ -166,10 +166,10 @@
         {
             "id": 526,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
-            "name": "FC Girondins de Bordeaux",
+            "name": "Girondins de Bordeaux",
             "shortName": "Bordeaux",
             "tla": "BOR",
             "address": "Rue Joliot-Curie, Le Haillan Bordeaux 33185",
@@ -179,13 +179,13 @@
             "founded": 1881,
             "clubColors": "Blue / White",
             "venue": null,
-            "lastUpdated": null
+            "lastUpdated": "2018-08-03T14:20:58Z"
         },
         {
             "id": 527,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "AS Saint-Étienne",
             "shortName": "Saint-Étienne",
@@ -202,8 +202,8 @@
         {
             "id": 528,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Dijon Football Côte d'Or",
             "shortName": "Dijon",
@@ -220,8 +220,8 @@
         {
             "id": 529,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Stade Rennais FC 1901",
             "shortName": "Stade Rennes",
@@ -238,8 +238,8 @@
         {
             "id": 530,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Amiens SC",
             "shortName": "Amiens SC",
@@ -256,8 +256,8 @@
         {
             "id": 532,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Angers SCO",
             "shortName": "Angers SCO",
@@ -274,8 +274,8 @@
         {
             "id": 538,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "En Avant Guingamp",
             "shortName": "EA Guingamp",
@@ -292,8 +292,8 @@
         {
             "id": 543,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "FC Nantes",
             "shortName": "FC Nantes",
@@ -310,8 +310,8 @@
         {
             "id": 547,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Stade de Reims",
             "shortName": "Stade de Reims",
@@ -328,8 +328,8 @@
         {
             "id": 548,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": 2152,
+                "name": "Monaco"
             },
             "name": "AS Monaco FC",
             "shortName": "Monaco",
@@ -346,8 +346,8 @@
         {
             "id": 556,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "Nîmes Olympique",
             "shortName": "Nîmes",
@@ -364,8 +364,8 @@
         {
             "id": 576,
             "area": {
-                "id": 2081,
-                "name": "France"
+                "id": null,
+                "name": null
             },
             "name": "RC Strasbourg Alsace",
             "shortName": "RC Strasbourg",

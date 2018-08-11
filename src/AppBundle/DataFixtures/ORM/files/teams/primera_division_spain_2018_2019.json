@@ -13,10 +13,10 @@
         "lastUpdated": "2018-06-05T00:27:54Z"
     },
     "season": {
-        "id": 16,
-        "startDate": "2017-08-18",
-        "endDate": "2018-05-20",
-        "currentMatchday": 38
+        "id": 281,
+        "startDate": "2018-08-17",
+        "endDate": "2019-05-26",
+        "currentMatchday": 1
     },
     "teams": [
         {
@@ -110,24 +110,6 @@
             "lastUpdated": "2018-06-02T14:15:07Z"
         },
         {
-            "id": 84,
-            "area": {
-                "id": 2224,
-                "name": "Spain"
-            },
-            "name": "Málaga CF",
-            "shortName": "Málaga",
-            "tla": "MAL",
-            "address": "Paseo de Martiricos, s/n Málaga 29011",
-            "phone": "+34 (952) 104488",
-            "website": "http://www.malagacf.es",
-            "email": "administracion@malagacf.es",
-            "founded": 1933,
-            "clubColors": "Blue / White",
-            "venue": null,
-            "lastUpdated": "2018-06-02T14:15:18Z"
-        },
-        {
             "id": 86,
             "area": {
                 "id": 2224,
@@ -144,6 +126,24 @@
             "clubColors": "White / Purple",
             "venue": null,
             "lastUpdated": "2018-06-02T12:58:10Z"
+        },
+        {
+            "id": 87,
+            "area": {
+                "id": 2224,
+                "name": "Spain"
+            },
+            "name": "Rayo Vallecano de Madrid",
+            "shortName": "Rayo Vallecano",
+            "tla": "VALL",
+            "address": "Calle del Payaso Fofó, s/n Madrid 28018",
+            "phone": "+34 (914) 782253",
+            "website": "http://www.rayovallecano.es",
+            "email": "info@rayovallecano.es",
+            "founded": 1924,
+            "clubColors": "White / Red",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:13:30Z"
         },
         {
             "id": 88,
@@ -236,6 +236,24 @@
             "lastUpdated": "2018-06-02T14:16:17Z"
         },
         {
+            "id": 250,
+            "area": {
+                "id": 2224,
+                "name": "Spain"
+            },
+            "name": "Real Valladolid CF",
+            "shortName": "Valladolid",
+            "tla": null,
+            "address": "Avenida del Mundial, 82 Valladolid 47014",
+            "phone": "+34 (983) 360342",
+            "website": "http://www.realvalladolid.es",
+            "email": "realvalladolid@realvalladolid.es",
+            "founded": 1928,
+            "clubColors": "Violet / White",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:14:05Z"
+        },
+        {
             "id": 263,
             "area": {
                 "id": 2224,
@@ -252,24 +270,6 @@
             "clubColors": "Blue / White",
             "venue": null,
             "lastUpdated": "2018-06-02T14:17:01Z"
-        },
-        {
-            "id": 275,
-            "area": {
-                "id": 2224,
-                "name": "Spain"
-            },
-            "name": "UD Las Palmas",
-            "shortName": "Las Palmas",
-            "tla": "LPA",
-            "address": "Calle Pío XII, 29 Las Palmas de Gran Canaria 35005",
-            "phone": "+34 (928) 241342",
-            "website": "http://www.udlaspalmas.es",
-            "email": "comunicación@udlaspalmas.es",
-            "founded": 1949,
-            "clubColors": "Yellow / Blue",
-            "venue": null,
-            "lastUpdated": "2018-06-02T14:17:29Z"
         },
         {
             "id": 278,
@@ -308,6 +308,24 @@
             "lastUpdated": "2018-06-02T14:18:06Z"
         },
         {
+            "id": 299,
+            "area": {
+                "id": 2224,
+                "name": "Spain"
+            },
+            "name": "SD Huesca",
+            "shortName": "Huesca",
+            "tla": null,
+            "address": "Calle Cocoron, s/n null 22004",
+            "phone": "+34 (974) 212679",
+            "website": "http://www.sdhuesca.es",
+            "email": "info@sdhuesca.es",
+            "founded": 1910,
+            "clubColors": "Crimson / Navy Blue",
+            "venue": null,
+            "lastUpdated": "2018-06-02T14:15:00Z"
+        },
+        {
             "id": 558,
             "area": {
                 "id": 2224,
@@ -342,24 +360,6 @@
             "clubColors": "White / Red",
             "venue": null,
             "lastUpdated": "2018-06-02T12:51:15Z"
-        },
-        {
-            "id": 560,
-            "area": {
-                "id": 2224,
-                "name": "Spain"
-            },
-            "name": "RC Deportivo La Coruña",
-            "shortName": "Deportivo",
-            "tla": "LAC",
-            "address": "Plaza de Pontevedra, 19 A Coruña 15003",
-            "phone": "+34 (981) 259500",
-            "website": "http://www.rcdeportivo.es",
-            "email": "deportivo@rcdeportivo.es",
-            "founded": 1906,
-            "clubColors": "Blue / White",
-            "venue": null,
-            "lastUpdated": "2018-06-02T14:18:47Z"
         },
         {
             "id": 745,

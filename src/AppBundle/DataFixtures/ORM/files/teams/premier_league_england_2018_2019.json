@@ -16,7 +16,7 @@
         "id": 151,
         "startDate": "2018-08-10",
         "endDate": "2019-05-12",
-        "currentMatchday": null
+        "currentMatchday": 1
     },
     "teams": [
         {
@@ -81,15 +81,15 @@
             },
             "name": "Fulham FC",
             "shortName": "Fulham",
-            "tla": null,
+            "tla": "FUL",
             "address": "Craven Cottage, Stevenage Road London SW6 6HH",
             "phone": "+44 (0870) 4421222",
             "website": "http://www.fulhamfc.com",
             "email": "enquiries@fulhamfc.com",
             "founded": 1879,
             "clubColors": "White / Black",
-            "venue": null,
-            "lastUpdated": "2018-06-02T13:47:35Z"
+            "venue": "Craven Cottage",
+            "lastUpdated": "2018-07-31T08:14:57Z"
         },
         {
             "id": 64,
@@ -189,15 +189,15 @@
             },
             "name": "Wolverhampton Wanderers FC",
             "shortName": "Wolverhampton",
-            "tla": null,
+            "tla": "WOL",
             "address": "Waterloo Road Wolverhampton WV1 4QR",
             "phone": "+44 (0871) 2222220",
             "website": "http://www.wolves.co.uk",
             "email": "info@wolves.co.uk",
             "founded": 1877,
             "clubColors": "Black / Gold",
-            "venue": null,
-            "lastUpdated": "2018-06-02T13:48:02Z"
+            "venue": "Molineux Stadium",
+            "lastUpdated": "2018-07-31T08:15:12Z"
         },
         {
             "id": 328,
@@ -351,15 +351,15 @@
             },
             "name": "Cardiff City FC",
             "shortName": "Cardiff",
-            "tla": null,
+            "tla": "CAR",
             "address": "Cardiff City Stadium, Leckwith Road Cardiff CF11 8AZ",
             "phone": "+44 (0845) 3651115",
             "website": "http://www.cardiffcityfc.co.uk",
             "email": "club@cardiffcityfc.co.uk",
             "founded": 1899,
             "clubColors": "Blue / White",
-            "venue": null,
-            "lastUpdated": "2018-06-02T13:50:12Z"
+            "venue": "Cardiff City Stadium",
+            "lastUpdated": "2018-07-31T08:15:18Z"
         },
         {
             "id": 1044,

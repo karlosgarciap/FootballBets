@@ -14,16 +14,16 @@
     },
     "season": {
         "id": 183,
-        "startDate": "2018-08-12",
+        "startDate": "2018-08-10",
         "endDate": "2019-05-19",
-        "currentMatchday": null
+        "currentMatchday": 1
     },
     "teams": [
         {
             "id": 496,
             "area": {
-                "id": 2187,
-                "name": "Portugal"
+                "id": null,
+                "name": null
             },
             "name": "Rio Ave FC",
             "shortName": "Rio Ave",
@@ -76,8 +76,8 @@
         {
             "id": 583,
             "area": {
-                "id": 2187,
-                "name": "Portugal"
+                "id": null,
+                "name": null
             },
             "name": "Moreirense FC",
             "shortName": "Moreirense",
@@ -94,8 +94,8 @@
         {
             "id": 810,
             "area": {
-                "id": 2187,
-                "name": "Portugal"
+                "id": null,
+                "name": null
             },
             "name": "Boavista FC",
             "shortName": "Boavista",
@@ -112,8 +112,8 @@
         {
             "id": 1049,
             "area": {
-                "id": 2187,
-                "name": "Portugal"
+                "id": null,
+                "name": null
             },
             "name": "CD Tondela",
             "shortName": "Tondela",
@@ -153,15 +153,15 @@
             },
             "name": "Sport Lisboa e Benfica",
             "shortName": "Benfica Lisboa",
-            "tla": null,
+            "tla": "BEN",
             "address": "Av. General Norton de Matos 1500, Apartado Nº 4100 Lisboa 1501-805",
             "phone": "+351 (021) 7219558",
             "website": "http://www.slbenfica.pt",
             "email": "sec.geral@slbenfica.pt",
             "founded": 1904,
             "clubColors": "Red / White",
-            "venue": null,
-            "lastUpdated": "2018-06-02T14:34:04Z"
+            "venue": "Estádio do Sport Lisboa e Benfica",
+            "lastUpdated": "2018-08-09T09:58:38Z"
         },
         {
             "id": 5529,

@@ -1,0 +1,1003 @@
+{
+    "filters": {},
+    "competition": {
+        "id": 2015,
+        "area": {
+            "id": 2081,
+            "name": "France"
+        },
+        "name": "Ligue 1",
+        "code": null,
+        "plan": "TIER_ONE",
+        "lastUpdated": "2018-06-05T00:07:58Z"
+    },
+    "season": {
+        "id": 177,
+        "startDate": "2018-08-10",
+        "endDate": "2019-05-25",
+        "currentMatchday": 1
+    },
+    "standings": [
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "TOTAL",
+            "group": null,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 516,
+                        "name": "Olympique de Marseille",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/27/Olympique_Marseille_Logo.svg"
+                    },
+                    "playedGames": 1,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 3,
+                    "goalsFor": 4,
+                    "goalsAgainst": 0,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 518,
+                        "name": "Montpellier HSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/35/HSC_Montpellier_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 524,
+                        "name": "Paris Saint-Germain FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/Logo_Paris_Saint-Germain_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 521,
+                        "name": "Lille OSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/08/LOSC_Lille_Crest_2012.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 523,
+                        "name": "Olympique Lyonnais",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 526,
+                        "name": "Girondins de Bordeaux",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ea/Girondins_Bordeaux_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 529,
+                        "name": "Stade Rennais FC 1901",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Stade_Rennais_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 527,
+                        "name": "AS Saint-Étienne",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b1/AS_Saint-Etienne_%28aktuell%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 522,
+                        "name": "OGC de Nice Côte d'Azur",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/OGC_Nice_Logo.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 547,
+                        "name": "Stade de Reims",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9e/Stade_Reims_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 532,
+                        "name": "Angers SCO",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0f/SCO_Angers.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 543,
+                        "name": "FC Nantes",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/50/FC_Nantes_%28seit_2008%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 548,
+                        "name": "AS Monaco FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 514,
+                        "name": "SM Caen",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/7/79/LogoSmc2013.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 538,
+                        "name": "En Avant Guingamp",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ae/EA_Guingamp_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 528,
+                        "name": "Dijon Football Côte d'Or",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e1/FCO_Dijon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 556,
+                        "name": "Nîmes Olympique",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Olympique_Nimes.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 576,
+                        "name": "RC Strasbourg Alsace",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 530,
+                        "name": "Amiens SC",
+                        "crestUrl": null
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 511,
+                        "name": "Toulouse FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Toulouse_Logo.svg"
+                    },
+                    "playedGames": 1,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 4,
+                    "goalDifference": -4
+                }
+            ]
+        },
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "HOME",
+            "group": null,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 516,
+                        "name": "Olympique de Marseille",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/27/Olympique_Marseille_Logo.svg"
+                    },
+                    "playedGames": 1,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 3,
+                    "goalsFor": 4,
+                    "goalsAgainst": 0,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 518,
+                        "name": "Montpellier HSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/35/HSC_Montpellier_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 524,
+                        "name": "Paris Saint-Germain FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/Logo_Paris_Saint-Germain_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 521,
+                        "name": "Lille OSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/08/LOSC_Lille_Crest_2012.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 523,
+                        "name": "Olympique Lyonnais",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 526,
+                        "name": "Girondins de Bordeaux",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ea/Girondins_Bordeaux_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 529,
+                        "name": "Stade Rennais FC 1901",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Stade_Rennais_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 527,
+                        "name": "AS Saint-Étienne",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b1/AS_Saint-Etienne_%28aktuell%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 511,
+                        "name": "Toulouse FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Toulouse_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 522,
+                        "name": "OGC de Nice Côte d'Azur",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/OGC_Nice_Logo.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 547,
+                        "name": "Stade de Reims",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9e/Stade_Reims_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 532,
+                        "name": "Angers SCO",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0f/SCO_Angers.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 543,
+                        "name": "FC Nantes",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/50/FC_Nantes_%28seit_2008%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 548,
+                        "name": "AS Monaco FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 514,
+                        "name": "SM Caen",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/7/79/LogoSmc2013.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 538,
+                        "name": "En Avant Guingamp",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ae/EA_Guingamp_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 528,
+                        "name": "Dijon Football Côte d'Or",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e1/FCO_Dijon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 556,
+                        "name": "Nîmes Olympique",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Olympique_Nimes.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 576,
+                        "name": "RC Strasbourg Alsace",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 530,
+                        "name": "Amiens SC",
+                        "crestUrl": null
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "AWAY",
+            "group": null,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 518,
+                        "name": "Montpellier HSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/35/HSC_Montpellier_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 524,
+                        "name": "Paris Saint-Germain FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/Logo_Paris_Saint-Germain_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 521,
+                        "name": "Lille OSC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/08/LOSC_Lille_Crest_2012.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 523,
+                        "name": "Olympique Lyonnais",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 526,
+                        "name": "Girondins de Bordeaux",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ea/Girondins_Bordeaux_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 529,
+                        "name": "Stade Rennais FC 1901",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Stade_Rennais_Football_Club.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 527,
+                        "name": "AS Saint-Étienne",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b1/AS_Saint-Etienne_%28aktuell%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 516,
+                        "name": "Olympique de Marseille",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/27/Olympique_Marseille_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 522,
+                        "name": "OGC de Nice Côte d'Azur",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/0/03/OGC_Nice_Logo.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 547,
+                        "name": "Stade de Reims",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9e/Stade_Reims_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 532,
+                        "name": "Angers SCO",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0f/SCO_Angers.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 543,
+                        "name": "FC Nantes",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/50/FC_Nantes_%28seit_2008%29.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 548,
+                        "name": "AS Monaco FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 514,
+                        "name": "SM Caen",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/7/79/LogoSmc2013.png"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 538,
+                        "name": "En Avant Guingamp",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ae/EA_Guingamp_Logo.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 528,
+                        "name": "Dijon Football Côte d'Or",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e1/FCO_Dijon.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 556,
+                        "name": "Nîmes Olympique",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b6/Olympique_Nimes.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 576,
+                        "name": "RC Strasbourg Alsace",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 530,
+                        "name": "Amiens SC",
+                        "crestUrl": null
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 511,
+                        "name": "Toulouse FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Toulouse_Logo.svg"
+                    },
+                    "playedGames": 1,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 4,
+                    "goalDifference": -4
+                }
+            ]
+        }
+    ]
+}
