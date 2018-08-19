@@ -20,3 +20,6 @@ parameters:
 
     fos_user_from_email_address: addres@fosuserbundle.com
     fos_user_from_email_sender_name: sender.name@fosuserbundle.com
+
+    football_data_api_url: ~
+    football_data_api_key: ~

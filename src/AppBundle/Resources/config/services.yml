@@ -1,0 +1,4 @@
+services:
+
+    AppBundle\Services\ApiFootballData:
+        arguments: ["%football_data_api_url%", "%football_data_api_key%"]
