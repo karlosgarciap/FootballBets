@@ -19,6 +19,17 @@ class ApiFootballData
     private $apiToken;
 
     /**
+     * @var array
+     */
+    private $arrayCompetitions = [
+        2002 => 'bundesliga_germany',
+        2014 => 'primera_division',
+        2015 => 'ligue_1_france',
+        2017 => 'primera_liga_portugal',
+        2021 => 'premier_league'
+    ];
+
+    /**
      * ApiFootballData constructor.
      * @param $url
      * @param $apiToken
@@ -63,6 +74,14 @@ class ApiFootballData
     public function getCompetitionStandings($competitionId)
     {
         return $this->request('competitions/' . $competitionId . '/standings');
+    }
+
+    /**
+     * @return array
+     */
+    public function getArrayCompetitions()
+    {
+        return $this->arrayCompetitions;
     }
 
     /**
